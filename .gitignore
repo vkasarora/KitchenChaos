@@ -1,0 +1,87 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# =========================
+# Asset Store tools cache
+# =========================
+[Aa]ssets/AssetStoreTools*
+
+# =========================
+# Visual Studio / Rider / IDE
+# =========================
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Unity crash reports
+# =========================
+sysinfo.txt
+
+# =========================
+# Build output
+# =========================
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# =========================
+# Addressables
+# =========================
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# =========================
+# Shader cache
+# =========================
+*.shadergraph
+*.shadergraphmeta
+
+# =========================
+# Gradle / Android
+# =========================
+.gradle/
+.local.properties
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary backups
+# =========================
+*.tmp
+*.bak
+*.old
+*.orig
