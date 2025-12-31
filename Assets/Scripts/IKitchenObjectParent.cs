@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Common interface to kitchen object for counter and th player
 public interface IKitchenObjectParent
 {
     public Transform GetKitchenObjectFollowTransform();
