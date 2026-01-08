@@ -123,7 +123,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
 				// Attempt to move on Z axis
 				Vector3 moveDirZ = new Vector3(0f, 0f, moveDir.z).normalized;
-				// moveDir.z != 0f => Cannot move in z direction if it is zero. 
+				// moveDir.z != 0f => Cannot move in z direction if it is zero.
 				canMove = moveDir.z != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
 
 				if (canMove)
