@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6937475515343094834, guid: e26b4e008cc107445a92639b3a8274ce, type: 3}
+      propertyPath: m_Name
+      value: CounterTopPoint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -234,6 +238,8 @@ MonoBehaviour:
   counterTopPoint: {fileID: 3224500518714499162}
   fryingRecipeSOArray:
   - {fileID: 11400000, guid: f1b6be1ecb65c634b893cb0630d03537, type: 2}
+  burningRecipeSOArray:
+  - {fileID: 11400000, guid: 821c1da3d3522ac4197714107a9c3a2b, type: 2}
 --- !u!1001 &8966770617748236900
 PrefabInstance:
   m_ObjectHideFlags: 0
