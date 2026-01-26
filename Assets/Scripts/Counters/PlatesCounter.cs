@@ -1,16 +1,30 @@
+using System;
 using UnityEngine;
 
-public class PlatesCounter : MonoBehaviour
+public class PlatesCounter : BaseCounter
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public event EventHandler OnPlateSpawned;
+    [SerializeField] private KitchenObjectSO plateKitchenObjectSO;
+    
+    private float spawnPlateTimer;
+    private float spawnPlateTimerMax = 4f;
+    private int platesSpawnedAmount;
+    private int platesSpawnedAmountMax = 4;
+
+    private void Update()
     {
-        
+        spawnPlateTimer += Time.deltaTime;
+
+        if (spawnPlateTimer > spawnPlateTimerMax)
+        {
+            spawnPlateTimer = 0f;
+            if (platesSpawnedAmount < platesSpawnedAmountMax)
+            {
+                platesSpawnedAmount++;
+
+                OnPlateSpawned?.Invoke(this, EventArgs.Empty);
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
