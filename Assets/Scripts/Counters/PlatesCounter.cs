@@ -22,7 +22,6 @@ public class PlatesCounter : BaseCounter
             if (platesSpawnedAmount < platesSpawnedAmountMax)
             {
                 platesSpawnedAmount++;
-
                 OnPlateSpawned?.Invoke(this, EventArgs.Empty);
             }
         }
