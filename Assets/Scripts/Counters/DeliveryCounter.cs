@@ -11,8 +11,6 @@ public class DeliveryCounter : BaseCounter
                 // Only accept plates
                 player.GetKitchenObject().DestroySelf();
             }
-
-
         }
     }
 }
