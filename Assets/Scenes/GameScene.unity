@@ -1420,6 +1420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595128540}
   - component: {fileID: 595128541}
+  - component: {fileID: 595128542}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1462,6 +1463,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   kitchenObjectHoldPoint: {fileID: 1671625169}
+--- !u!114 &595128542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595128539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516ebd69bda3d8342a4f1910d89fcb45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &617354355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1830,7 @@ AudioSource:
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 0
@@ -1826,7 +1839,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -2874,6 +2887,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b682fad982f731c47afd8f72976b1eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClipRefsSO: {fileID: 11400000, guid: d0871986dbe03c44f97634f59dd7a704, type: 2}
+--- !u!1 &1277636854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277636856}
+  - component: {fileID: 1277636855}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1277636855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277636854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057174a7bdef0e442b855f55aaba2da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1277636856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277636854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1289839347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,3 +4534,4 @@ SceneRoots:
   - {fileID: 1097841901}
   - {fileID: 815012166}
   - {fileID: 1266822242}
+  - {fileID: 1277636856}
