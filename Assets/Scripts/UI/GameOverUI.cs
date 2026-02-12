@@ -31,7 +31,6 @@ public class GameOverUI : MonoBehaviour
 
     private void Hide()
     {
-        Debug.Log("Text Hidden");
         gameObject.SetActive(false);
     }
 
