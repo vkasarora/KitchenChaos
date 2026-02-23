@@ -801,6 +801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 502022677}
+  - component: {fileID: 502022678}
   m_Layer: 0
   m_Name: ResetStaticDataManager
   m_TagString: Untagged
@@ -823,6 +824,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502022678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502022676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda96ff01ba6de941b4df95bfc1d29b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &678697435
 GameObject:
   m_ObjectHideFlags: 0
