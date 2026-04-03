@@ -981,7 +981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 21b5e5bb35c0b624a85194081d7d1962, type: 2}
@@ -2187,6 +2187,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6a7771b76164854f926d405d7d3f522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyMoveUpText: {fileID: 1604015847}
+  keyMoveDownText: {fileID: 1283369175}
+  keyMoveLeftText: {fileID: 146963348}
+  keyMoveRightText: {fileID: 896937822}
+  keyMoveInteractText: {fileID: 603430148}
+  keyMoveAlternateText: {fileID: 393326743}
+  keyMovePauseText: {fileID: 626781865}
 --- !u!1 &367239031
 GameObject:
   m_ObjectHideFlags: 0
@@ -12049,6 +12056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664963256}
   - component: {fileID: 1664963257}
+  - component: {fileID: 1664963258}
   m_Layer: 5
   m_Name: GameStartCountdownUI
   m_TagString: Untagged
@@ -12089,6 +12097,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 181389351}
+--- !u!95 &1664963258
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664963255}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1671625168
 GameObject:
   m_ObjectHideFlags: 0
